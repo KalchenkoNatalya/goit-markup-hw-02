@@ -92,7 +92,6 @@ ul {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -131,7 +130,6 @@ ul {
 }
 
 .features-title {
-    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -147,7 +145,6 @@ ul {
 
 /*----- Section2 What are we doing---- */
 .our-work {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -162,7 +159,6 @@ ul {
 }
 
 .team-name {
-    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -233,7 +229,6 @@ ul {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
