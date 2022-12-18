@@ -3,6 +3,7 @@
     --nav-text-color: #2E2F42;
     --title-text-color: #2E2F42;
     --accent-color: #4D5AE5;
+    --second-accent-color: #FFFFFF;
     --logo-color: #2E2F42;
     --team-name-color: #2E2F42;
     --section-title-color: #2E2F42;
@@ -29,6 +30,14 @@ ul {
 }
 
 .logo-color {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--logo-color);
 }
 
@@ -178,6 +187,11 @@ ul {
     color: #F4F4FD;
 }
 
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--accent-color);
+}
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -186,6 +200,16 @@ ul {
 }
 
 /*============== Portfolio======= */
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .services-button {
     font-family: inherit;
@@ -199,7 +223,13 @@ ul {
     color: var(--accent-color);
     cursor: pointer;
     background-color: var(--background-light-color);
-    border: 1px;
+    border: 1px solid #E7E9FC;
+}
+
+.services-button:hover,
+.services-button:focus {
+    color: var(--second-accent-color);
+    background-color: var(--accent-color);
 }
 
 .section-title {
